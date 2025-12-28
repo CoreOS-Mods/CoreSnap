@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "snapmod",
+	"version": "${version}",
+	"name": "SnapMod",
+	"description": "Adds a configurable Thanos Snap command to Minecraft.",
+	"authors": [ "CoreOS Labs" ],
+	"contact": {
+		"homepage": "https://github.com/CoreOS-Labs",
+		"sources": "https://github.com/CoreOS-Mods/CoreSnap"
+	},
+	"license": "PRIVATE LICENSING",
+	"icon": "assets/snapmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"labs.coreos.mods.coresnapmod.SnapMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
